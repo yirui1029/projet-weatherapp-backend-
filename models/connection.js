@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const mongoose = require('mongoose');
 
 const connectionString = `mongodb+srv://admin:${process.env.CONNECTION_STRING}@cluster0.hjonx.mongodb.net/`;
